@@ -1,0 +1,485 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.clearflix{
+    clear: both;
+}
+body{
+    background-color: #C8C5BC;
+}
+.data{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow:  0 0 15px 22px rgba(122,122,122,0.7); 
+}
+.data__img{
+    height: 1500px;
+    max-width: 300px;
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 14px;
+    float: left;
+}
+
+#img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.data_text p{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#line{
+    border: 1px solid white;
+    width: 260px;
+    margin-left: 40px;
+    margin-top: -7px;
+}
+.name{
+    width: 150px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 10px;
+}
+.name p{
+    margin-left: 35px;
+    margin-top: 1px;
+        
+}
+.name span{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
+}
+.name .icon:before{
+    position: absolute;
+    content: "\f2be";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+
+/*Adress*/
+
+.adress,
+.email, 
+.phone{
+    width: 200px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 25px;
+}
+
+.phone p,
+.adress p,
+.email p{
+    margin-left: 35px;
+}
+.adress span,
+.phone span,
+.email span{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
+}
+.adress .icon:before{
+    position: absolute;
+    content: "\f041";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+/*Phone*/
+
+.phone .icon:before{
+    position: absolute;
+    content: "\f10b";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+/*Phone*/
+.email .icon:before{
+    position: absolute;
+    content: "\f0e0";
+    font-family: 'FontAwesome' !important;
+    font-size: 22px;
+    line-height: 20px; 
+}
+
+/*Social*/
+.data__social{
+    margin-top: 25px;
+}
+.data__social2 p{
+    margin-left: 50px;
+}
+.social__whatsapp, 
+.social__vk{
+    width: 200px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 10px;
+}
+.social__whatsapp p,
+.social__vk p{
+    margin-left: 35px;
+}
+.social__whatsapp span,
+.social__vk span{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
+}
+.social__whatsapp .icon:before{
+    position: absolute;
+    content: "\f232";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.social__vk .icon:before{
+    position: absolute;
+    content: "\f189";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*content*/
+
+.content{
+    width: 700px;
+    float: left;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.content__name h1{
+    text-align: center;
+    margin-top: 70px;
+}
+.content__name p{
+    text-align: center;
+    margin-top: -15px;
+    letter-spacing: 5px;
+}
+.work{
+    margin-top: 70px;
+}
+.line2{
+    width: 550px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #000;
+}
+.vertical__line{
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 35px;
+    margin-top: 7px;
+}
+.vertical{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 79px;
+    margin-left: -8px;
+    float: left;
+}
+.vertical2{
+    content: "";
+    width: 88px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 188px;
+    margin-left: -1px;
+    float: left;
+}
+.vertical3{
+    content: "";
+    width: 95px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 293px;
+    margin-left: -5px;
+    float: left;
+}
+.vertical4{
+    content: "";
+    width: 105px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 406px;
+    margin-left: -10px;
+    float: left;
+}
+.rotate{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 35px;
+}
+.rotate2{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 130px;
+    float: left;
+    margin-left: -15px;
+}
+.rotate3{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 232px;
+    float: left;
+    margin-left: -15px;
+}
+.rotate4{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 341px;
+    float: left;
+    margin-left: -15px;
+}
+.rotate5{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 460px;
+    float: left;
+    margin-left: -15px;
+}
+.work p{
+    margin-left: 75px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.work .icon2:before{
+    position: absolute;
+    content: "\f0b1";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.work__year{
+    float: left;
+    width: 100px;
+}
+.work__company{
+    float: left;
+    width: 450px;
+}
+.work__year #work__year{
+    margin-top: 68px;
+}
+.work__year #work__year2{
+    margin-top: 77px;
+}
+.work__year span{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+.work__experince{
+    margin-left: 25px;
+    width: 550px;
+    display: inline-block;
+    float: left;
+}
+.work__company p{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.work__company span{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+}
+.work__company #text{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+/*Education*/
+
+.education2,
+.scills{
+    width: 700px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.education3,
+.scills3{
+    float: left;
+}
+.education3 p,
+.scills3 P{
+     margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.icon3,
+.icon4{
+    width: 80px;
+    float: left;
+}
+.icon3 .icon:before{
+     position: absolute;
+    content: "\f02d";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+
+.education__year,
+.scill__expert{
+    width: 700px;
+    display: inline-block;
+}
+.circle{
+    width: 80px;
+    float: left;
+}
+.edu__year{
+    width: 100px;
+    float: left;
+}
+.institution{
+    width: 520px;
+    float: left;
+}
+.institution p{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.institution #p{
+    font-size: 14px;
+    margin-top: -5px;
+}
+.institution span{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+}
+#edu__year{
+    margin-top: 100px;
+}
+.vertical__line1{
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 35px;
+    margin-top: -7px;
+}
+.rotate1{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 1px;
+    float: left;
+    margin-left: 35px;
+}
+.vertical1{
+    content: "";
+    width: 105px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -10px;
+    margin-top: 67px;
+}
+.rotate6{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 104px;
+    float: left;
+    margin-left: 35px;
+}
+
+/*Scills*/
+.icon4 .icon:before{
+     position: absolute;
+    content: "\f245";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.text__scills{
+    width: 620px;
+    float: left;
+}
+.vertical5{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -55px;
+    margin-top: 90px;
+}
+.text__scills p{
+     font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+.text__scills span{
+     font-size: 14px;
+    font-weight: 100;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+}
