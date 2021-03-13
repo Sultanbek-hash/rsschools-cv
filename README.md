@@ -1,1 +1,2 @@
-1. https://Sultanbek-hash.github.io/rsschools-cv/rsschool-cv-html/CV
+1. https://Sultanbek-hash.github.io/rsschools-cv/CV'
+2. https://Sultanbek-hash.github.io/rsschools-cv/
