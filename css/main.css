@@ -130,14 +130,16 @@ body{
     margin-left: 50px;
 }
 .social__whatsapp, 
-.social__vk{
+.social__vk,
+.github{
     width: 200px;
     margin-left: 50px;
     display: block;
     margin-top: 10px;
 }
 .social__whatsapp p,
-.social__vk p{
+.social__vk p,
+.github p{
     margin-left: 35px;
 }
 .social__whatsapp span,
@@ -162,7 +164,22 @@ body{
     font-size: 24px;
     line-height: 24px;
 }
-
+.github .icon:before{
+    position: absolute;
+    content: "\f092";
+    font-family: 'FontAwesome' !important;
+    font-size: 24px;
+    line-height: 24px;
+}
+.github a{
+   text-decoration: none;
+   list-style: none;
+   font-size: 14px;
+   font-weight: 100;
+   font-family: 'Roboto';
+   color: #fff;
+   line-height: 24px;
+}
 /*content*/
 
 .content{
